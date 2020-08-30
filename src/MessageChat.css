@@ -1,0 +1,57 @@
+#masschat{
+    position: static;
+    display:block;
+    width: 99%;
+    background-color:#1c1e21;
+    float: right !important;
+    
+   
+
+}
+#mess{
+    position: static;
+    overflow-y: scroll;
+    max-height: 50vh;
+    display:block;
+    width:100%;
+    word-wrap: break-word;
+   
+}
+
+.smspost{
+    background-color: #373737;
+    color: whitesmoke;
+    font-size: 25px;
+    padding: 5px;
+    border: 1px solid black;
+    margin-left: 20%;
+    margin-right: 2%;
+    border-radius: 20px;
+    white-space: pre-wrap;
+    border-radius: 30px 0px 50px 30px;
+    -webkit-filter:drop-shadow(0px 0px 5px #000000);
+    display: block;
+    
+    
+}
+.smsget{
+    background-color: #0084ff;
+    font-size: 25px;
+    color:whitesmoke;
+    padding: 5px;
+    border: 1px solid blue;
+    margin-left:2% ;
+    margin-right: 20%;
+    border-radius: 20px;
+    border-radius: 15px 50px 30px;
+    -webkit-filter:drop-shadow(0px 0px 5px #000000);
+
+}
+#input{
+    width: 75%;
+}
+@media only screen and (max-width: 800px) {
+    .smsget{
+        margin-left: 10%;
+    }
+}

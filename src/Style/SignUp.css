@@ -1,0 +1,84 @@
+.sign {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+    
+}
+#Sign{
+    background-color:rgb(230, 220, 220);
+    display: flex;
+    justify-content:space-between;
+    height: 100vh;
+
+    
+    
+ }
+
+
+body{
+    background-color: rgb(199, 130, 199);;
+    margin:0px;
+    padding: 0px;
+}
+
+#SigninLogin {
+    width: 40%;
+    background-color: rgb(29, 143, 124);
+    height: 95vh;
+    margin-right: 2px;
+    border-radius: 10px;
+}
+#SignupLogin{
+    width: 60%;
+    background-color: whitesmoke;
+    height: 95vh;
+    margin-left: 2px;
+    border-radius: 10px;
+}
+  
+body{
+    margin:0px !important;
+}
+@media only screen and (max-width: 800px) {
+    .sign{
+        width: 100%;
+        
+    }
+    body{
+        background-color: rgb(199, 130, 199);;
+        margin:0px;
+        padding: 0px;
+    }
+     #SignupLogin{
+        width: 100%;
+        
+    }
+    #SigninLogin{
+        width: 100%;
+        margin-right: 5% !important;
+        
+        
+    }
+}
+
+input {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
